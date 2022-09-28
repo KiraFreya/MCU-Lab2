@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/Minh/Documents/PlatformIO/Projects/MCU Lab 2/include",
-                "c:/Users/Minh/Documents/PlatformIO/Projects/MCU Lab 2/src",
+                "c:/Users/Minh/Documents/GitHub/MCU-Lab2/include",
+                "c:/Users/Minh/Documents/GitHub/MCU-Lab2/src",
                 "C:/Users/Minh/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/Minh/.platformio/packages/framework-arduino-avr/variants/standard",
                 "C:/Users/Minh/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
@@ -22,8 +22,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/Minh/Documents/PlatformIO/Projects/MCU Lab 2/include",
-                    "c:/Users/Minh/Documents/PlatformIO/Projects/MCU Lab 2/src",
+                    "c:/Users/Minh/Documents/GitHub/MCU-Lab2/include",
+                    "c:/Users/Minh/Documents/GitHub/MCU-Lab2/src",
                     "C:/Users/Minh/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/Minh/.platformio/packages/framework-arduino-avr/variants/standard",
                     "C:/Users/Minh/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",

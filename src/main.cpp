@@ -11,7 +11,7 @@ int main(void)
     // set up Timer0 in a CTC mode (TCCCR0A register) so that 
     // it reaches the max vaule at every 1ms (TCCR0B, OCR0A)
     TCCR0B = (1 << CS01)|(1 << CS00);  //timer 0 prescaler = Clock/64, TCC0B: (CS02, CS01, CS00) = (011)
-    TCCR0A = (1 << WGM01);  //Set up CTC Mode for timer 0
+    // TCCR0A = (1 << WGM01);  //Set up CTC Mode for timer 0
     
     while(1)
     {
@@ -34,7 +34,7 @@ void my_delay_ms(unsigned long time_ms)
     // repeat until the millisecond counter reaches time_ms
     unsigned long num_ms_count = 0;
     while (num_ms_count < time_ms) {
-      while ((TIFR0 & (1<<TOV0)) != (1 << TOV0));
+      while ((TIFR0 & (1<<TOV0)) != (1 << TOV0)) {};
       TIFR0 &= (1<<TOV0);
       num_ms_count++;
     }
